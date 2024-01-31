@@ -1,5 +1,5 @@
 steps:
-  STG_NODE-eb62a94a-66f6-4cf6-8c16-a4007b0a54be:
+  STG_NODE-741567c3-80b3-4d3c-863d-cadb11de7887:
     operation:
       config:
         insertStrategy: INSERT
@@ -11,7 +11,7 @@ steps:
       deployEnabled: true
       description: ""
       isMultisource: false
-      locationName: WORK
+      locationName: STG
       materializationType: table
       metadata:
         appliedNodeTests: []
@@ -32,4 +32,4 @@ steps:
       schema: ""
       sqlType: Stage
       type: sql
-    stepCounter: eb62a94a-66f6-4cf6-8c16-a4007b0a54be
+    stepCounter: 741567c3-80b3-4d3c-863d-cadb11de7887

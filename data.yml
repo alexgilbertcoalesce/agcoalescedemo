@@ -16,22 +16,7 @@ jobs:
     name: fact table refresh
     steps: []
     subgraphs: []
-locations:
-  DEV:
-    mappingDefinitions:
-      "3":
-        database: COALESCE_SAMPLE_DATABASE
-        schema: TPCH_SF001
-  STG:
-    mappingDefinitions:
-      "3":
-        database: AUSTIN_TEST_DB_PROD
-        schema: EDW_PROD
-  UNS:
-    mappingDefinitions:
-      "3":
-        database: COALESCE_SAMPLE_DATABASE
-        schema: WEATHER
+locations: {}
 macros:
   Macro-1:
     id: "1"
