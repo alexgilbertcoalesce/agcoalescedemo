@@ -240,6 +240,22 @@ steps:
                   - columnCounter: 8527a372-c6df-4228-8491-0e407963cf30
                     stepCounter: 98f389fe-5a99-4023-9cf6-2fc304771538
                 transform: ""
+          - acceptedValues:
+              strictMatch: false
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 946c6fdc-aec7-4229-9205-e9c5510be3f6
+              stepCounter: 5fc6bc48-827a-4e83-9556-c46f82930d7a
+            dataType: STRING
+            description: ""
+            name: SHIP_MODE_PRIORITY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: aea333a8-136c-4760-b2a1-dacedb77aab4
+                    stepCounter: 98f389fe-5a99-4023-9cf6-2fc304771538
+                transform: ""
           - columnReference:
               columnCounter: 603bf0a9-2cf6-4560-a053-7b3679fb03ea
               stepCounter: 5fc6bc48-827a-4e83-9556-c46f82930d7a

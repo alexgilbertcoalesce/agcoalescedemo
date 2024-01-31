@@ -241,6 +241,27 @@ steps:
                   - columnCounter: 3bc05494-2cb9-4db2-b1a5-36993c57b7aa
                     stepCounter: 77957960-ad57-4312-b5e5-16b8649ef257
                 transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: aea333a8-136c-4760-b2a1-dacedb77aab4
+              stepCounter: 98f389fe-5a99-4023-9cf6-2fc304771538
+            config: {}
+            dataType: STRING
+            defaultValue: ""
+            description: ""
+            keyColumnType: None
+            name: SHIP_MODE_PRIORITY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: "0"
+                    stepCounter: "0"
+                transform: CONCAT("STG_LINEITEM"."L_SHIPMODE","STG_ORDERS"."O_SHIPPRIORITY")
+            systemColumnType: None
+            transform: ""
           - columnReference:
               columnCounter: 07a9fce1-d095-49df-ab68-56f4cde1cd88
               stepCounter: 98f389fe-5a99-4023-9cf6-2fc304771538
